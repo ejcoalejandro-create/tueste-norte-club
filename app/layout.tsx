@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import Cabecera from '@/components/Cabecera';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -17,7 +18,10 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es">
-      <body className="min-h-screen">{children}</body>
+      <body className="min-h-screen">
+        <Cabecera />
+        {children}
+      </body>
     </html>
   );
 }
