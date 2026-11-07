@@ -9,6 +9,7 @@ const enlaces = [
   { texto: 'Inicio', href: '/ejercicios' },
   { texto: 'Métodos', href: '/ejercicios/metodos' },
   { texto: 'Componentes', href: '/ejercicios/componentes' },
+  { texto: 'Entradas', href: '/ejercicios/entradas' },
 ];
 
 export default function EjerciciosLayout({ children }: EjerciciosLayoutProps) {
