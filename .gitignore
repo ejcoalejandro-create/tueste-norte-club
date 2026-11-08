@@ -41,4 +41,5 @@ yarn-error.log*
 next-env.d.ts
 !.env.example
 # Base de datos local
-/sqlite/
+/sqlite/*
+!/sqlite/.gitkeep
