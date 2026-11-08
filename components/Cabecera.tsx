@@ -3,6 +3,7 @@ import Link from 'next/link';
 const enlaces = [
   { texto: 'Mi suscripción', href: '/' },
   { texto: 'Cafés del mes', href: '/cafes' },
+  { texto: 'Pedidos', href: '/pedidos' },
   { texto: 'Hazte socio', href: '/alta' },
 ];
 
